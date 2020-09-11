@@ -1,0 +1,89 @@
+<html <!DOCTYPE html>
+
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div id="body-div">
+        
+
+        <div class="text-white" style="margin-right: auto;margin-left: auto;text-align: center">
+            <h1 class="text-white" style="font-weight: 600;font-size: 6vw;">Start challenging yourself</h1>
+            <h4 class="text-white mt-4" style="font-size: 2vw">Do as many calculations as you can in 60 seconds</h4><br>
+        </div>
+        <div  id="start-btn">
+            <button id="start" class="btn btn-lg">Start Game</button>
+        </div>
+        <h2 id="finalScore" class="text-white text-md-center mt-4" style="font-size: 8vw;text-align: center"><small><span class="finalSpan"></span></small></h2>
+
+
+
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-3 col-sm-3 col-3">
+                    <div class="card">
+                        <div id="firstNumberUI" class="card-body display-2 text-md-center font-weight-normal" style="font-weight: 600;font-size: 6vw;">4</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-3">
+                    <div class="card">
+                        <div id="operatorUI" class="card-body display-2 text-md-center font-weight-normal" style="font-weight: 600;font-size: 6vw;">+</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-3">
+                    <div class="card">
+                        <div id="secondNumberUI" class="card-body display-2 text-md-center font-weight-normal" style="font-weight: 600;font-size: 6vw;">4</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-3">
+                    <div class="card">
+                        <h2 class="card-title text-md-center mt-2">Your Answer = </h2>
+                        <input type="number" id="user-input"  class="form-control text-md-center" style="font-weight: 600;font-size: 4vw;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4" style="justify-content: center;">
+                <div class="col-md-3 col-sm-3 col-3">
+                    <div class="card">
+                        <h2 class="card-title text-md-center mt-2">Timer</h2>
+                        <div id="time" class="card-body display-4 p-1 text-md-center font-weight-normal" style="font-size: 6vw;">60</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-3">
+                    <div class="card">
+                        <h2 class="card-title text-md-center mt-2">Response</h2>
+                        <div id="response" class="card-body display-4 p-3 text-md-center font-weight-normal" style="font-size: 4vw;color: blue;">Let's try</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-3">
+                    <div class="card">
+                        <h2 class="card-title text-md-center mt-2">Score</h2>
+                        <div id="score" class="card-body display-4 p-1 text-md-center font-weight-normal" style="font-size: 6vw;">0</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="app.js" async defer></script>
+</body>
+
+</html>

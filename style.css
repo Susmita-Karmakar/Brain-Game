@@ -1,0 +1,46 @@
+
+body{
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+#body-div{
+    width: 90%;
+    margin: auto;
+}
+
+#start-btn{
+    width: 150px;
+    margin:auto;
+}
+
+#start-btn button{
+    background-color: rgb(255, 255, 255);
+    font-weight: 700;
+    color: rgb(253, 38, 0);
+}
+
+#start-btn button:hover{
+    background-color: rgb(204, 200, 200);
+}
+
+#start-btn button:active{
+    box-shadow: inset 2px 2px 10px 3px rgb(63, 0, 0);
+}
+
+.card-title{
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+.card-body{
+    font-weight: 600;
+}
+
+#user-input{
+    font-size: 25px;
+    color: rgb(0, 17, 253);
+}
