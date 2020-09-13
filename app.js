@@ -42,10 +42,10 @@ userInput.addEventListener('keypress',function(e){
         if(answer === Number(userInput.value)){
             // update score
             marks = marks + 2;
-            response.innerHTML = `<h2 style="color:#0f9b0f;font-weight: 600;font-size: 4vw;">Correct</h2>` ;
+            response.innerHTML = `<h2 style="color:#0f9b0f;font-weight: 600;font-size: 3vw;">Correct</h2>` ;
         }else{
             marks = marks + 0 ;
-            response.innerHTML = `<h2 style="color:#FF0000;font-weight: 600;font-size: 4vw;">Wrong</h2>` ;
+            response.innerHTML = `<h2 style="color:#FF0000;font-weight: 600;font-size: 3vw;">Wrong</h2>` ;
         }
         userInput.value = '' ;
         // Generate new question
